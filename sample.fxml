@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.ToggleButton?>
+<?import javafx.scene.control.Tooltip?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+
+<BorderPane fx:id="borderpane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="60.0" prefHeight="600.0" prefWidth="755.0" stylesheets="/sample/viper2.css" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <top>
+      <HBox fx:id="boxy" minWidth="50.0" prefHeight="114.0" prefWidth="755.0" style="-fx-background-color: #383838;" BorderPane.alignment="CENTER">
+         <children>
+            <Pane fx:id="pane1" minWidth="100.0" prefHeight="114.0" prefWidth="281.0" stylesheets="/sample/viper2.css">
+               <children>
+                  <Label fx:id="label1" layoutX="97.0" layoutY="91.0" text="%label1" />
+                  <Button id="icon2" fx:id="but1p1" layoutX="78.0" layoutY="20.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="35.0">
+                     <tooltip>
+                        <Tooltip text="%but1p1" />
+                     </tooltip></Button>
+                  <Button id="icon3" fx:id="but2p1" layoutX="116.0" layoutY="20.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="35.0">
+                     <tooltip>
+                        <Tooltip text="%but2p1" />
+                     </tooltip></Button>
+                  <Button id="icon4" fx:id="but3p1" layoutX="154.0" layoutY="20.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="35.0">
+                     <tooltip>
+                        <Tooltip text="%but3p1" />
+                     </tooltip></Button>
+                  <Button id="icon7" fx:id="but6p1" layoutX="154.0" layoutY="51.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="35.0">
+                     <tooltip>
+                        <Tooltip text="%but6p1" />
+                     </tooltip></Button>
+                  <Button id="icon5" fx:id="but4p1" layoutX="78.0" layoutY="51.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="35.0">
+                     <tooltip>
+                        <Tooltip text="%but4p1" />
+                     </tooltip></Button>
+                  <Button id="icon6" fx:id="but5p1" layoutX="116.0" layoutY="51.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="35.0">
+                     <tooltip>
+                        <Tooltip text="%but5p1" />
+                     </tooltip></Button>
+                  <ToggleButton id="icon10" fx:id="tog1" layoutX="9.0" layoutY="20.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="62.0">
+                     <tooltip>
+                        <Tooltip text="%toggle1" />
+                     </tooltip></ToggleButton>
+                  <ToggleButton id="icon12" fx:id="tog2" layoutX="9.0" layoutY="51.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="62.0">
+                     <tooltip>
+                        <Tooltip text="%toggle2" />
+                     </tooltip></ToggleButton>
+                  <Button id="icon1" fx:id="open1" layoutX="1.0" layoutY="83.0" mnemonicParsing="false" onAction="#openWindow1" prefHeight="25.0" prefWidth="25.0">
+                     <tooltip>
+                        <Tooltip text="%largemenu" />
+                     </tooltip></Button>
+                  <Button id="iconlarge1" fx:id="inv1" contentDisplay="TOP" graphicTextGap="0.0" layoutX="8.0" layoutY="27.0" mnemonicParsing="false" onAction="#createPopup1" prefHeight="86.0" prefWidth="75.0" text="Button" textFill="WHITE" visible="false" />
+               </children>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </Pane>
+            <Pane fx:id="pane2" layoutX="10.0" layoutY="10.0" minWidth="100.0" prefHeight="114.0" prefWidth="256.0">
+               <children>
+                  <Label fx:id="label2" layoutX="82.0" layoutY="91.0" text="%label2" />
+                  <RadioButton fx:id="radio1" layoutX="52.0" layoutY="62.0" mnemonicParsing="false" text="RadioButton" />
+                  <ComboBox fx:id="combo1" layoutX="20.0" layoutY="20.0" prefHeight="28.0" prefWidth="151.0">
+                     <tooltip>
+                        <Tooltip text="Empty Tooltip" />
+                     </tooltip>
+                  </ComboBox>
+                  <Button id="icon1" fx:id="open2" layoutX="1.0" layoutY="83.0" mnemonicParsing="false" onAction="#openWindow2" prefHeight="25.0" prefWidth="25.0">
+                     <tooltip>
+                        <Tooltip text="%largemenu" />
+                     </tooltip></Button>
+                  <Button id="iconlarge2" fx:id="inv2" contentDisplay="TOP" layoutX="7.0" layoutY="27.0" mnemonicParsing="false" onAction="#createPopup2" prefHeight="86.0" prefWidth="75.0" text="Button" visible="false" />
+               </children>
+            </Pane>
+            <Pane fx:id="pane3" layoutX="260.0" layoutY="10.0" minWidth="50.0" prefHeight="114.0" prefWidth="251.0">
+               <children>
+                  <Label fx:id="label3" layoutX="104.0" layoutY="92.0" text="%label3" />
+                  <Button id="icon8" fx:id="but1p3" layoutX="21.0" layoutY="20.0" mnemonicParsing="false" text="Button">
+                     <tooltip>
+                        <Tooltip text="%but1p3" />
+                     </tooltip></Button>
+                  <Button id="icon9" fx:id="but2p3" layoutX="21.0" layoutY="51.0" mnemonicParsing="false" text="Button">
+                     <tooltip>
+                        <Tooltip text="%but2p3" />
+                     </tooltip></Button>
+                  <ChoiceBox id="choice1" fx:id="choicep3" layoutX="108.0" layoutY="20.0" prefHeight="28.0" prefWidth="108.0">
+                     <tooltip>
+                        <Tooltip text="Empty Tooltip" />
+                     </tooltip>
+                  </ChoiceBox>
+                  <CheckBox fx:id="checkp3" layoutX="125.0" layoutY="55.0" mnemonicParsing="false" text="CheckBox" />
+                  <Button id="icon1" fx:id="open3" layoutX="1.0" layoutY="83.0" mnemonicParsing="false" onAction="#openWindow3" prefHeight="25.0" prefWidth="25.0">
+                     <tooltip>
+                        <Tooltip text="%largemenu" />
+                     </tooltip></Button>
+                  <Button id="iconlarge3" fx:id="inv3" contentDisplay="TOP" layoutX="35.0" layoutY="27.0" mnemonicParsing="false" onAction="#createPopup3" prefHeight="86.0" prefWidth="75.0" text="Button" visible="false" />
+               </children>
+            </Pane>
+         </children>
+      </HBox>
+   </top>
+</BorderPane>

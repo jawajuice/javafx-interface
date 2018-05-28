@@ -1,0 +1,149 @@
+
+.label {
+ -fx-text-fill: white;
+
+ }
+
+
+ #pane {
+     -fx-background-color: #383838;
+  }
+
+
+
+ .check-box {
+  -fx-text-fill: white;
+ }
+
+ .button {
+    -fx-background-color:  #383838;
+    -fx-background-radius: 2;
+     -fx-text-fill: white;
+
+    }
+
+    #icon1 {
+    -fx-graphic: url("icons/icon1.png");
+    }
+    #icon2 {
+    -fx-graphic: url("icons/icon2.png");
+    }
+    #icon3 {
+    -fx-graphic: url("icons/icon3.png");
+    }
+    #icon4 {
+    -fx-graphic: url("icons/icon4.png");
+    }
+    #icon5 {
+    -fx-graphic: url("icons/icon5.png");
+    }
+    #icon6 {
+    -fx-graphic: url("icons/icon6.png");
+    }
+    #icon7 {
+    -fx-graphic: url("icons/icon7.png");
+    }
+    #icon8 {
+        -fx-graphic: url("icons/icon8.png");
+    }
+    #icon9 {
+        -fx-graphic: url("icons/icon9.png");
+    }
+    #icon10 {
+        -fx-graphic: url("icons/icon10.png");
+    }
+    #icon10:selected {
+            -fx-graphic: url("icons/icon11.png");
+        }
+    #icon12 {
+            -fx-graphic: url("icons/icon12.png");
+        }
+        #icon12:selected {
+                -fx-graphic: url("icons/icon13.png");
+            }
+
+
+    #iconlarge1 {
+    -fx-graphic: url("icons/iconlarge1.png");
+    }
+    #iconlarge2 {
+        -fx-graphic: url("icons/iconlarge2.png");
+        }
+    #iconlarge3 {
+        -fx-graphic: url("icons/iconlarge3.png");
+        }
+
+
+
+ .button:hover {
+    -fx-background-color: #474747;
+    -fx-border-color: #1a1a1a;
+
+    }
+ .button:pressed {
+    -fx-background-color: #242424;
+
+    }
+
+  .radio-button {
+
+
+       -fx-text-fill: white;
+
+  }
+
+  .toggle-button {
+  -fx-background-color:  #383838;
+      -fx-background-radius: 2;
+       -fx-text-fill: white;
+
+  }
+
+  .toggle-button:selected {
+  -fx-border-color: #1a1a1a;
+  -fx-background-color: #242424;
+  -fx-graphic: url("icons/icon11.png");
+
+  }
+
+  .toggle-button:selected:focused {
+    -fx-background-color: #242424;
+
+    }
+
+   .toggle-button:hover {
+   -fx-background-color: #474747;
+       -fx-border-color: #1a1a1a;
+
+   }
+
+   .combo-box {
+
+   -fx-background-color:  white;
+
+        -fx-text-fill: black;
+
+
+   }
+
+
+    .choice-box .menu-item > .label { -fx-text-fill: black; }
+    .choice-box .label {-fx-text-fill: black;}
+
+
+   .choice-box {
+
+      -fx-background-color:  white;
+
+          -fx-text-fill: black;
+
+      }
+
+
+
+      #button1 {
+          -fx-background-color:  #383838;
+              -fx-background-radius: 2;
+               -fx-text-fill: white;
+
+          }
